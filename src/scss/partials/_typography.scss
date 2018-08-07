@@ -1,0 +1,48 @@
+h1 {
+	@include poppins-bold(rem-calc(95px));
+	margin-bottom: -10px;
+
+	@include breakpoint(small only) { 
+		@include poppins-bold(rem-calc(55px));
+			line-height: 110%;
+			margin-bottom: 20px;
+	}
+}
+
+h2 {
+	@include poppins-bold(rem-calc(70px));
+	@include breakpoint(small only) { 
+		@include poppins-bold(rem-calc(45px));
+		line-height: 110%;
+		//margin-bottom: 130px;
+	}
+}
+
+h3 {
+	@include poppins-bold(rem-calc(40px));
+	@include breakpoint(small only) { 
+		@include poppins-bold(rem-calc(26px));
+	}
+}
+
+h4 {
+	@include poppins(rem-calc(21px));
+	text-transform: uppercase;
+	@include breakpoint(small only) { 
+		@include poppins-bold(rem-calc(15px));
+	}
+}
+
+h6 {
+	@include crimson(rem-calc(32px));
+	@include breakpoint(small only) { 
+		@include crimson(rem-calc(20px));
+	}
+}
+
+p {
+	@include crimson(rem-calc(22px));
+	@include breakpoint(small only) { 
+		@include crimson(rem-calc(18px));
+	}
+}

@@ -1,0 +1,348 @@
+@mixin baseBgSettings {
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-color: transparent;
+}
+
+// Lemon
+.happy-lemon {
+	$width: 182px;
+	$height: 260px;
+	
+	width: auto;
+	height: $height;
+	@include baseBgSettings;
+	background-image: url('../images/lemon/happy.png');
+	background-size: $width $height;
+
+	@include breakpoint(retina) {
+		background-image: url('../images/2x/lemon/happy.png');		
+	}
+
+	&.small {
+		height: 198px;
+		background-size: 138px 198px;
+	}
+	&.x-small {
+		height: 100px;
+		background-size: 70px 100px;
+	}
+
+	//for smaller size breakpoints
+	@include breakpoint(small only) { 
+    height: 120px;
+			background-size: 84px 120px;
+
+		&.small {
+			height: 80px;
+			background-size: 56px 80px;
+		}
+		&.x-small {
+			height: 80px;
+			background-size: 56px 80px;
+		}
+  }
+}
+
+.scared-lemon {
+	$width: 182px;
+	$height: 260px;
+	
+	width: auto;
+	height: $height;
+	@include baseBgSettings;
+	background-image: url('../images/lemon/scared.png');
+	background-size: $width $height;
+
+	@include breakpoint(retina) {
+		background-image: url('../images/2x/lemon/scared.png');		
+	}
+
+	&.small {
+		height: 198px;
+		background-size: 138px 198px;
+	}
+	&.x-small {
+		height: 100px;
+		background-size: 70px 100px;
+	}
+
+	//for smaller size breakpoints
+	@include breakpoint(small only) { 
+   	height: 120px;
+		background-size: 84px 120px;
+
+		&.small {
+			height: 80px;
+			background-size: 56px 80px;
+		}
+		&.x-small {
+			height: 80px;
+			background-size: 56px 80px;
+		}
+  }
+}
+
+.crate-lemon {
+	$width: 255px;
+	$height: 255px;
+	
+	width: auto;
+	height: $height;
+	@include baseBgSettings;
+	background-image: url('../images/lemon/crate.png');
+	background-size: $width $height;
+
+	@include breakpoint(retina) {
+		background-image: url('../images/2x/lemon/crate.png');		
+	}
+}
+
+.stuck-lemon {
+	$width: 501px;
+	$height: 350px;
+	
+	width: auto;
+	height: $height;
+	@include baseBgSettings;
+	background-image: url('../images/lemon/stuck.png');
+	background-size: $width $height;
+
+	@include breakpoint(retina) {
+		background-image: url('../images/2x/lemon/stuck.png');		
+	}
+
+	@include breakpoint(small only) { 
+    height: 200px;
+		background-size: 286px 200px;
+  }
+}
+
+// Carrot
+.happy-carrot {
+	$width: 111px;
+	$height: 260px;
+	
+	width: auto;
+	height: $height;
+	@include baseBgSettings;
+	background-image: url('../images/carrot/happy.png');
+	background-size: $width $height;
+
+	@include breakpoint(retina) {
+		background-image: url('../images/2x/carrot/happy.png');
+	}
+
+	&.small {
+		height: 198px;
+		background-size: 85px 198px;
+	}
+	&.x-small {
+		height: 100px;
+		background-size: 43px 100px;
+	}
+
+	//for smaller size breakpoints
+	@include breakpoint(small only) { 
+    height: 120px;
+		background-size: 51px 120px;
+
+		&.small {
+			height: 80px;
+			background-size: 34px 80px;
+		}
+		&.x-small {
+			height: 80px;
+			background-size: 34px 80px;
+		}
+  }
+}
+.scared-carrot {
+	$width: 111px;
+	$height: 260px;
+	
+	width: auto;
+	height: $height;
+	@include baseBgSettings;
+	background-image: url('../images/carrot/scared.png');
+	background-size: $width $height;
+
+	@include breakpoint(retina) {
+		background-image: url('../images/2x/carrot/scared.png');
+	}
+
+	&.small {
+		height: 198px;
+		background-size: 85px 198px;
+	}
+	&.x-small {
+		height: 100px;
+		background-size: 43px 100px;
+	}
+
+		//for smaller size breakpoints
+	@include breakpoint(small only) { 
+    height: 120px;
+		background-size: 51px 120px;
+
+		&.small {
+			height: 80px;
+			background-size: 34px 80px;
+		}
+		&.x-small {
+			height: 80px;
+			background-size: 34px 80px;
+		}
+  }
+}
+
+.crate-carrot {
+	$width: 255px;
+	$height: 255px;
+	
+	width: auto;
+	height: $height;
+	@include baseBgSettings;
+	background-image: url('../images/carrot/crate.png');
+	background-size: $width $height;
+
+	@include breakpoint(retina) {
+		background-image: url('../images/2x/carrot/crate.png');		
+	}
+}
+
+.stuck-carrot {
+	$width: 469px;
+	$height: 350px;
+	
+	width: auto;
+	height: $height;
+	@include baseBgSettings;
+	background-image: url('../images/carrot/stuck.png');
+	background-size: $width $height;
+
+	@include breakpoint(retina) {
+		background-image: url('../images/2x/carrot/stuck.png');		
+	}
+
+	//for smaller screen size breakpoint
+	@include breakpoint(small only) { 
+    height: 200px;
+		background-size: 268px 200px;
+  }
+}
+
+// Apple
+.happy-apple {
+	$width: 231px;
+	$height: 260px;
+	
+	width: auto;
+	height: $height;
+	@include baseBgSettings;
+	background-image: url('../images/apple/happy.png');
+	background-size: $width $height;
+
+	@include breakpoint(retina) {
+		background-image: url('../images/2x/apple/happy.png');
+	}
+
+	&.small {
+		height: 198px;
+		background-size: 176px 198px;
+	}
+	&.x-small {
+		height: 100px;
+		background-size: 89px 100px;
+	}
+
+	//for smaller size breakpoints
+	@include breakpoint(small only) { 
+    height: 120px;
+		background-size: 107px 120px;
+
+		&.small {
+			height: 80px;
+			background-size: 71px 80px;
+		}
+		&.x-small {
+			height: 80px;
+			background-size: 71px 80px;
+		}
+  }
+}
+
+.scared-apple {
+	$width: 231px;
+	$height: 260px;
+	
+	width: auto;
+	height: $height;
+	@include baseBgSettings;
+	background-image: url('../images/apple/scared.png');
+	background-size: $width $height;
+
+	@include breakpoint(retina) {
+		background-image: url('../images/2x/apple/scared.png');
+	}
+
+	&.small {
+		height: 198px;
+		background-size: 176px 198px;
+	}
+	&.x-small {
+		height: 100px;
+		background-size: 89px 100px;
+	}
+
+	//for smaller screen size breakpoint
+	@include breakpoint(small only) { 
+    height: 120px;
+		background-size: 107px 120px;
+
+		&.small {
+			height: 80px;
+			background-size: 71px 80px;
+		}
+		&.x-small {
+			height: 80px;
+			background-size: 71px 80px;
+		}
+  }
+}
+
+.crate-apple {
+	$width: 255px;
+	$height: 255px;
+	
+	width: auto;
+	height: $height;
+	@include baseBgSettings;
+	background-image: url('../images/apple/crate.png');
+	background-size: $width $height;
+
+	@include breakpoint(retina) {
+		background-image: url('../images/2x/apple/crate.png');		
+	}
+}
+
+.stuck-apple {
+	$width: 441px;
+	$height: 300px;
+	
+	width: auto;
+	height: $height;
+	@include baseBgSettings;
+	background-image: url('../images/apple/stuck.png');
+	background-size: $width $height;
+
+	@include breakpoint(retina) {
+		background-image: url('../images/2x/apple/stuck.png');		
+	}
+
+	//for smaller screen size breakpoint
+	@include breakpoint(small only) { 
+    height: 200px;
+		background-size: 294px 200px;
+  }
+}

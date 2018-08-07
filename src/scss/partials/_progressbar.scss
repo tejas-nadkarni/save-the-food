@@ -1,0 +1,50 @@
+ul.progress-bar {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	// To avoid gap between inline-block items
+	font-size: 0;
+	
+	li {	
+		// $dotSize Should be an odd number for line centering to look right
+		$dotSize: 16px; 
+		$stepWidth: 50px;
+		
+		display: inline-block;
+		position: relative;
+		width: $stepWidth;
+		
+		&.active {
+			.dot {
+				background-color: #000;
+			}
+		}
+		
+		.dot {
+			z-index: 3;
+			position: relative;	// Needed for z-index to work			
+			display: block;
+			width: $dotSize;
+			height: $dotSize;
+			border-radius: 50%;
+			border: 2px solid #000;
+			background-color: #fff;
+		}
+		
+		.connector {
+			z-index: 0;
+			display: block;
+			position: absolute;
+			top: $dotSize/2;
+			width: 100%;
+			height: 2px;
+			background: #000;
+		}
+		
+		&:last-child {
+			width: auto;
+			
+			.connector { display: none; }
+		}
+	}
+}

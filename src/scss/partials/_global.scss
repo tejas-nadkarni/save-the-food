@@ -1,0 +1,424 @@
+body {
+	overflow-x: hidden;
+	transition: background-color .3s ease-out;
+
+	&[data-step="0"] {
+			background-color: red;
+			background-repeat: no-repeat;
+			background-position: center bottom;
+			background-image: url('../images/foods-intro.png');
+
+			@include breakpoint(retina) {
+				background-image: url('../images/2x/foods-intro.png');
+				background-size: 812px 352px;
+			}
+			
+			@include breakpoint(small only) { 
+	    	background-size: 415px 180px;
+	    }
+	}
+	&[data-step="15"] {
+			background-repeat: no-repeat;
+			background-position: center bottom;
+			background-image: url('../images/landfill-bg.png');
+
+			@include breakpoint(retina) {
+				background-image: url('../images/2x/landfill-bg.png');
+				background-size: 849px 273px;
+			}	
+	}
+	&[data-step="17"] {
+			background-repeat: no-repeat;
+			background-position: center bottom;
+			background-image: url('../images/foods-intro.png');
+
+			@include breakpoint(retina) {
+				background-image: url('../images/2x/foods-intro.png');
+				background-size: 812px 352px;
+			}	
+
+			@include breakpoint(small only) { 
+	    	background-size: 415px 180px;
+	    }
+	}
+
+	#main {
+		height: 100%;
+		overflow-x:hidden; 
+
+		input[type="text"] {
+			$mobileTextSize: 32px;
+
+			height: auto;
+			padding: 0 rem-calc(42px);
+	    border: 0;
+	    outline: 0;
+	    background: transparent;
+	    border-bottom: 2px solid #fff;
+	    box-shadow: none;	    
+	    font-size: rem-calc(60px);
+	    text-align: center; 
+	    color: #fff;
+	    @include poppins-bold(rem-calc(70px));
+	    
+	    @include breakpoint(small only) {
+	    	@include poppins-bold(rem-calc($mobileTextSize));
+	    }
+		}
+
+		input[type="text"]::-webkit-input-placeholder { 
+			@include poppins-bold(rem-calc(70px));
+			color: #92BBF4;
+			@include breakpoint(small only) { 
+	    	@include poppins-bold(rem-calc(32px));
+	    }
+		}
+
+		#step-wrap {
+			height: 100%;
+			padding-top: rem-calc(75px);
+			color: #000;
+			text-align: center;
+			opacity: 0;			
+
+			&.unfade-main-area {
+				transition: opacity .45s ease-in-out;
+				opacity: 1;	
+			}	
+
+
+			> .row {
+				.content-wrap {
+					position: relative;
+					z-index: 5;
+				}				
+			}
+
+			.fail,
+			.pass {
+				position: absolute;
+				font-size: rem-calc(550px);
+				z-index: 1;
+				@include breakpoint(small only) { display: none; }
+			}
+
+			.fail {						
+				top: 50px;
+				left: -150px;
+		    transform: rotate(45deg);		   
+			}
+
+			.pass {					
+				top: -150px;
+				right: -100px;
+		    transform:rotate(-45deg);		    
+			}		
+
+			.faded-text{
+					opacity: 0;
+					transition: opacity .45s ease-in-out;
+				}
+
+				.unfaded-text{
+					opacity: 1;	
+				}		
+
+			// button styling
+			.btn-row {
+				margin: 37px;
+
+				button {
+					display: inline-block;
+					margin: 0 30px 20px 0;
+
+					&:last-child {
+						margin-right: 0;
+						margin-bottom: 0;
+					}
+				}
+			}
+
+			// info button
+			.content-wrap {
+					position: relative;
+
+					.info-trig {
+						position: absolute;
+						top: -60px;
+	  				right: 15px;
+						font-size: rem-calc(50px);
+					}	
+				}	
+
+			//basic styling
+			&.basic {
+				padding-top: rem-calc(75px);
+
+				h1 { 
+					margin-bottom: 4px; 
+					@include breakpoint(small only) { margin-bottom: 18px;  }
+				}
+
+				h2 { 
+					margin-bottom: 4px; 
+					@include breakpoint(small only) { margin-bottom: 34px;  }
+				}
+
+				p {
+					padding: 0 150px;
+					margin: 0;
+					@include breakpoint(small only) { padding: 0 10px; }
+				}
+
+				.character-image {
+					margin-bottom: 15px;
+				}
+
+				.progress-bar {
+					margin-top: 20px;	
+				}
+			}
+
+
+
+		  //individual step styles
+			&.step-0 {
+				padding-top: rem-calc(75px);
+				color: #fff;
+
+				h1 {
+						margin-bottom: 10px;
+				}
+			}
+
+			@import 'steps/step-1';			
+
+			&.step-2 {
+				h1 {
+					@include poppins-bold(rem-calc(75px));
+					@include breakpoint(small only) { 
+						@include poppins-bold(rem-calc(50px));
+					}
+				}
+
+				h6 {
+					margin: 15px 0 15px;
+				}
+
+				#weather-picker {
+					.wheel-arrow {					
+						color: #E040FB;
+						font-size: rem-calc(35px);
+						margin: 10px 0 -15px;
+					}
+
+					.wheel {
+						display: inline-block;
+						cursor: pointer;
+						width: 380px;
+						height: 380px;
+						background-color: transparent;
+						background-image: url('../images/weather-wheel.png');
+						background-position: 0 0;
+						background-repeat: no-repeat;
+						animation-delay: 0s;
+						animation-duration: 2s;
+						animation-iteration-count: 1;
+						animation-timing-function: ease-out;
+
+						@include breakpoint(retina) {
+							background-image: url('../images/2x/weather-wheel.png');
+							background-size: 380px 380px;
+						}
+
+						@include breakpoint(small only) { 
+							width: 280px;
+							height: 280px;
+					    background-size: 280px 280px;
+					   }
+					}
+				}			
+			}
+
+			&.step-3 {
+
+				h6 {
+					margin-top: 50px;
+				}
+
+				h1 {
+					line-height: 110%;
+				}
+			}
+
+			&.step-4 {
+
+			}
+
+			&.step-5 {
+				padding-top: 0;
+				color: #fff;
+
+				p {
+					margin-bottom: 37px;
+				}	
+
+				//image padding
+				.content-wrap{
+					top: 25px;
+					margin-bottom: 15px;
+				}
+
+				.character-image {
+					margin: 30px 0 25px 0;
+				}		
+
+				.info-trig {
+						position: absolute;
+						top: rem-calc(35px);
+						right: 10px;
+						font-size: rem-calc(50px);
+					}		
+			}
+
+			&.step-6 {
+				.fail {
+						color: #F44336;
+					}
+				.pass {
+						color: #00E676;
+				}
+			}
+
+			&.step-7 {		
+			}
+
+			&.step-8 {
+				.fail,
+				.pass {
+						color: #fff;
+				}
+
+			}
+
+			&.step-9 {	
+			}
+
+			&.step-10 {
+				.fail,
+				.pass {
+						color: #fff;
+				}
+			}
+
+			&.step-11 {
+
+			}
+
+			&.step-12 {
+				color: #fff;	
+			}
+
+			&.step-13 {
+				color: #fff;
+
+				h2 {
+					@include breakpoint(small only) { 
+						@include poppins-bold(rem-calc(30px));
+					}
+				}
+
+				h6 {
+					@include breakpoint(small only) { 
+						margin-top: 25px;
+						margin-bottom: 25px;
+					}
+				}
+
+				.crate-selection {
+					padding-top: 20px;
+				}
+				
+				.crate {
+					display: inline-block;
+					width: 255px;
+					height: 255px;
+					position: relative;			
+
+					.crate-slot {
+						display: block;
+						position: absolute;
+						width: 68px;
+						height: 68px;
+						background-color: #000;
+						border-radius: 50%;
+						cursor: pointer;	
+						transition: all 0.2s ease-out;
+
+						&:hover,
+						&:active { 
+							background-color: #fff;
+							transform: scale(1.1); 
+						}
+
+						&.top {
+							right: 41px;
+							top: 41px
+						}
+
+						&.bottom {
+							left: 41px;
+							bottom: 41px	
+						}
+					}
+				}
+
+				@include breakpoint(small only) { 
+		    	.hide-button-image {
+						display:none;
+					}
+
+		    }						
+			}
+
+			&.step-14 {		
+			}
+
+			&.step-15 {
+				p {
+					color: #fff;
+				}
+
+				.character {
+					position: absolute;
+			    bottom: 40px;
+			    left: 0;
+			    width: 100%;
+			    z-index:-1;
+				}	
+			}
+
+			&.step-16 {
+				color: #fff;
+
+				h2 {
+					@include breakpoint(small only) { 
+						@include poppins-bold(rem-calc(40px));
+						margin-bottom: 30px;
+					}
+				}			
+			}
+
+			&.step-17 {	
+				.cta-icon {
+					cursor: pointer;
+					display:block;
+					font-size: rem-calc(80px);
+					margin: 20px;
+				}	
+
+				a { color: inherit; } 			
+			}				
+		}
+	}
+	}		

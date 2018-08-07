@@ -1,0 +1,17 @@
+@mixin poppins-bold ($size) {
+	font-family: "Poppins", sans-serif;
+	font-weight: 700;
+	font-size: $size;
+}
+
+@mixin poppins ($size) {
+	font-family: "Poppins", sans-serif;
+	font-weight: 400;
+	font-size: $size;
+}
+
+@mixin crimson ($size) {
+	font-family: "Crimson Text", serif;
+	font-weight: 400;
+	font-size: $size;
+}

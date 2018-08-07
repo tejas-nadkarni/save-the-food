@@ -1,0 +1,24 @@
+button{
+	&.step-btn {
+		background-color: #fff;
+		border: 2px solid #000;
+		border-radius: rem-calc(50px);
+		padding: 16px 84px;
+		@include poppins-bold(rem-calc(20px));
+		font-weight: 500;
+		/* offset-x | offset-y | blur-radius | spread-radius | color */
+		box-shadow: 5px 7px 0 0px rgba(0, 0, 0, 1);
+		color: #000;
+		text-transform: uppercase;
+    transition: background-color 0.3s;
+    outline: 0 !important;
+
+		&:hover {
+			background-color: #ffd0c0;
+		}
+
+		@include breakpoint(small only) { 
+			 padding: 16px 25px;
+	  }
+	}
+}

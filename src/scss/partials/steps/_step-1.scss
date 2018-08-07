@@ -1,0 +1,92 @@
+&.step-1 {
+	color: #fff;
+	
+
+	h1 {
+		@include poppins-bold(rem-calc(70px));
+		margin-bottom: -1px;
+			@include breakpoint(small only) { 
+				@include poppins-bold(rem-calc(50px));
+			}
+	}
+
+	.character-image {
+		margin-top: 25px;
+	}
+
+	.seeds {
+
+		.columns {
+			
+			&:hover {
+				h3 {
+					color: #ffd0c0;
+				}
+				.seed-img {
+					animation-name: bounce;
+				}
+			}
+		}
+		
+
+		h3 {
+			cursor: pointer;
+			transition: color 0.3s;			
+		}
+
+		p {
+			@include crimson(rem-calc(16px));
+			margin-bottom: 0;
+			cursor: pointer;
+		}
+
+		> .columns {
+			padding: 0 40px;			
+		}
+
+		.seed-img {
+			$imgWidth: 90px;
+			$imgHeight: 133px;
+			
+			width: auto;
+			height: $imgHeight;
+			margin-bottom: 20px;
+			background-position: center 0;
+			background-repeat: no-repeat;	
+			cursor: pointer;	
+			animation-duration: 1s;
+			animation-iteration-count: infinite;
+			animation-timing-function: ease-in;
+			transform: translateY(0);
+
+
+			@include breakpoint(retina) {
+				background-size: $imgWidth $imgHeight;
+			}
+
+			&[data-seed-type="apple"] {
+				background-image: url('../images/apple/seed.png');
+
+				@include breakpoint(retina) {
+					background-image: url('../images/2x/apple/seed.png');
+				}						
+			}
+
+			&[data-seed-type="carrot"] {
+				background-image: url('../images/carrot/seed.png');
+
+				@include breakpoint(retina) {
+					background-image: url('../images/2x/carrot/seed.png');
+				}	
+			}
+
+			&[data-seed-type="lemon"] {
+				background-image: url('../images/lemon/seed.png');
+
+				@include breakpoint(retina) {
+					background-image: url('../images/2x/lemon/seed.png');
+				}	
+			}
+		}
+	}
+}

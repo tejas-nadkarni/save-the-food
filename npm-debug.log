@@ -1,0 +1,252 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save-dev',
+1 verbose cli   'react-addons-css-transition-group' ]
+2 info using npm@2.15.5
+3 info using node@v4.4.5
+4 verbose install initial load of /Users/tnadka/Documents/final-project/project-untold/package.json
+5 warn package.json project-untold@1.0.0 No description
+6 warn package.json project-untold@1.0.0 No repository field.
+7 verbose installManyTop reading scoped package data from /Users/tnadka/Documents/final-project/project-untold/node_modules/babel-core/package.json
+8 verbose installManyTop reading scoped package data from /Users/tnadka/Documents/final-project/project-untold/node_modules/babel-loader/package.json
+9 verbose installManyTop reading scoped package data from /Users/tnadka/Documents/final-project/project-untold/node_modules/babel-preset-es2015/package.json
+10 verbose installManyTop reading scoped package data from /Users/tnadka/Documents/final-project/project-untold/node_modules/babel-preset-react/package.json
+11 verbose installManyTop reading scoped package data from /Users/tnadka/Documents/final-project/project-untold/node_modules/body-parser/package.json
+12 verbose installManyTop reading scoped package data from /Users/tnadka/Documents/final-project/project-untold/node_modules/connect-livereload/package.json
+13 verbose installManyTop reading scoped package data from /Users/tnadka/Documents/final-project/project-untold/node_modules/dom-scroll-into-view/package.json
+14 verbose installManyTop reading scoped package data from /Users/tnadka/Documents/final-project/project-untold/node_modules/easyimage/package.json
+15 verbose installManyTop reading scoped package data from /Users/tnadka/Documents/final-project/project-untold/node_modules/express/package.json
+16 verbose installManyTop reading scoped package data from /Users/tnadka/Documents/final-project/project-untold/node_modules/express-livereload/package.json
+17 verbose installManyTop reading scoped package data from /Users/tnadka/Documents/final-project/project-untold/node_modules/forever/package.json
+18 verbose installManyTop reading scoped package data from /Users/tnadka/Documents/final-project/project-untold/node_modules/geolib/package.json
+19 verbose installManyTop reading scoped package data from /Users/tnadka/Documents/final-project/project-untold/node_modules/gulp/package.json
+20 verbose installManyTop reading scoped package data from /Users/tnadka/Documents/final-project/project-untold/node_modules/gulp-autoprefixer/package.json
+21 verbose installManyTop reading scoped package data from /Users/tnadka/Documents/final-project/project-untold/node_modules/gulp-load-plugins/package.json
+22 verbose installManyTop reading scoped package data from /Users/tnadka/Documents/final-project/project-untold/node_modules/gulp-sass/package.json
+23 verbose installManyTop reading scoped package data from /Users/tnadka/Documents/final-project/project-untold/node_modules/history/package.json
+24 verbose installManyTop reading scoped package data from /Users/tnadka/Documents/final-project/project-untold/node_modules/http/package.json
+25 verbose installManyTop reading scoped package data from /Users/tnadka/Documents/final-project/project-untold/node_modules/jquery/package.json
+26 verbose installManyTop reading scoped package data from /Users/tnadka/Documents/final-project/project-untold/node_modules/mongoose/package.json
+27 verbose installManyTop reading scoped package data from /Users/tnadka/Documents/final-project/project-untold/node_modules/path/package.json
+28 verbose installManyTop reading scoped package data from /Users/tnadka/Documents/final-project/project-untold/node_modules/promise/package.json
+29 verbose installManyTop reading scoped package data from /Users/tnadka/Documents/final-project/project-untold/node_modules/pug/package.json
+30 verbose installManyTop reading scoped package data from /Users/tnadka/Documents/final-project/project-untold/node_modules/react/package.json
+31 verbose installManyTop reading scoped package data from /Users/tnadka/Documents/final-project/project-untold/node_modules/react-addons-css-transition-group/package.json
+32 verbose installManyTop reading scoped package data from /Users/tnadka/Documents/final-project/project-untold/node_modules/react-dom/package.json
+33 verbose installManyTop reading scoped package data from /Users/tnadka/Documents/final-project/project-untold/node_modules/react-redux/package.json
+34 verbose installManyTop reading scoped package data from /Users/tnadka/Documents/final-project/project-untold/node_modules/react-router/package.json
+35 verbose installManyTop reading scoped package data from /Users/tnadka/Documents/final-project/project-untold/node_modules/redux/package.json
+36 verbose installManyTop reading scoped package data from /Users/tnadka/Documents/final-project/project-untold/node_modules/underscore/package.json
+37 verbose installManyTop reading scoped package data from /Users/tnadka/Documents/final-project/project-untold/node_modules/webpack/package.json
+38 info package.json dom-scroll-into-view@1.2.0 No license field.
+39 info package.json express-livereload@0.0.24 No repository field.
+40 info package.json express-livereload@0.0.24 No license field.
+41 info package.json geolib@2.0.21 No license field.
+42 info package.json http@0.0.0 http is also the name of a node core module.
+43 info package.json http@0.0.0 No description
+44 info package.json http@0.0.0 No repository field.
+45 info package.json history@3.0.0 No README data
+46 info package.json path@0.12.7 path is also the name of a node core module.
+47 verbose readDependencies loading dependencies from /Users/tnadka/Documents/final-project/project-untold/package.json
+48 verbose install react-addons-css-transition-group is installed as 15.2.1
+49 silly cache add args [ 'react-addons-css-transition-group', null ]
+50 verbose cache add spec react-addons-css-transition-group
+51 silly cache add parsed spec Result {
+51 silly cache add   raw: 'react-addons-css-transition-group',
+51 silly cache add   scope: null,
+51 silly cache add   name: 'react-addons-css-transition-group',
+51 silly cache add   rawSpec: '',
+51 silly cache add   spec: 'latest',
+51 silly cache add   type: 'tag' }
+52 silly addNamed react-addons-css-transition-group@latest
+53 verbose addNamed "latest" is being treated as a dist-tag for react-addons-css-transition-group
+54 info addNameTag [ 'react-addons-css-transition-group', 'latest' ]
+55 silly mapToRegistry name react-addons-css-transition-group
+56 silly mapToRegistry using default registry
+57 silly mapToRegistry registry https://registry.npmjs.org/
+58 silly mapToRegistry data Result {
+58 silly mapToRegistry   raw: 'react-addons-css-transition-group',
+58 silly mapToRegistry   scope: null,
+58 silly mapToRegistry   name: 'react-addons-css-transition-group',
+58 silly mapToRegistry   rawSpec: '',
+58 silly mapToRegistry   spec: 'latest',
+58 silly mapToRegistry   type: 'tag' }
+59 silly mapToRegistry uri https://registry.npmjs.org/react-addons-css-transition-group
+60 verbose addNameTag registry:https://registry.npmjs.org/react-addons-css-transition-group not in flight; fetching
+61 verbose request uri https://registry.npmjs.org/react-addons-css-transition-group
+62 verbose request no auth needed
+63 info attempt registry request try #1 at 11:05:27 AM
+64 verbose request id 18093201fcd1f2da
+65 verbose etag "8W6J6YY8N1G6H5TA543P2CP80"
+66 http request GET https://registry.npmjs.org/react-addons-css-transition-group
+67 http 304 https://registry.npmjs.org/react-addons-css-transition-group
+68 verbose headers { date: 'Mon, 25 Jul 2016 15:05:27 GMT',
+68 verbose headers   via: '1.1 varnish',
+68 verbose headers   'cache-control': 'max-age=300',
+68 verbose headers   etag: '"8W6J6YY8N1G6H5TA543P2CP80"',
+68 verbose headers   age: '66',
+68 verbose headers   connection: 'keep-alive',
+68 verbose headers   'x-served-by': 'cache-jfk1026-JFK',
+68 verbose headers   'x-cache': 'HIT',
+68 verbose headers   'x-cache-hits': '1',
+68 verbose headers   'x-timer': 'S1469459127.769951,VS0,VE0',
+68 verbose headers   vary: 'Accept-Encoding' }
+69 silly get cb [ 304,
+69 silly get   { date: 'Mon, 25 Jul 2016 15:05:27 GMT',
+69 silly get     via: '1.1 varnish',
+69 silly get     'cache-control': 'max-age=300',
+69 silly get     etag: '"8W6J6YY8N1G6H5TA543P2CP80"',
+69 silly get     age: '66',
+69 silly get     connection: 'keep-alive',
+69 silly get     'x-served-by': 'cache-jfk1026-JFK',
+69 silly get     'x-cache': 'HIT',
+69 silly get     'x-cache-hits': '1',
+69 silly get     'x-timer': 'S1469459127.769951,VS0,VE0',
+69 silly get     vary: 'Accept-Encoding' } ]
+70 verbose etag https://registry.npmjs.org/react-addons-css-transition-group from cache
+71 verbose get saving react-addons-css-transition-group to /Users/tnadka/.npm/registry.npmjs.org/react-addons-css-transition-group/.cache.json
+72 verbose correctMkdir /Users/tnadka/.npm correctMkdir not in flight; initializing
+73 silly addNameTag next cb for react-addons-css-transition-group with tag latest
+74 silly addNamed react-addons-css-transition-group@15.2.1
+75 verbose addNamed "15.2.1" is a plain semver version for react-addons-css-transition-group
+76 silly cache afterAdd react-addons-css-transition-group@15.2.1
+77 verbose afterAdd /Users/tnadka/.npm/react-addons-css-transition-group/15.2.1/package/package.json not in flight; writing
+78 verbose correctMkdir /Users/tnadka/.npm correctMkdir not in flight; initializing
+79 verbose afterAdd /Users/tnadka/.npm/react-addons-css-transition-group/15.2.1/package/package.json written
+80 silly install resolved [ { name: 'react-addons-css-transition-group',
+80 silly install resolved     version: '15.2.1',
+80 silly install resolved     main: 'index.js',
+80 silly install resolved     repository:
+80 silly install resolved      { type: 'git',
+80 silly install resolved        url: 'git+https://github.com/facebook/react.git' },
+80 silly install resolved     keywords: [ 'react', 'react-addon' ],
+80 silly install resolved     license: 'BSD-3-Clause',
+80 silly install resolved     dependencies: {},
+80 silly install resolved     peerDependencies: { react: '^15.2.1' },
+80 silly install resolved     description: 'This package provides the React CSSTransitionGroup add-on.',
+80 silly install resolved     bugs: { url: 'https://github.com/facebook/react/issues' },
+80 silly install resolved     homepage: 'https://github.com/facebook/react#readme',
+80 silly install resolved     _id: 'react-addons-css-transition-group@15.2.1',
+80 silly install resolved     _shasum: '2e77a838ba8bd3812c0a8b418fea7a7cc303d84b',
+80 silly install resolved     _resolved: 'https://registry.npmjs.org/react-addons-css-transition-group/-/react-addons-css-transition-group-15.2.1.tgz',
+80 silly install resolved     _from: 'react-addons-css-transition-group@latest',
+80 silly install resolved     scripts: {},
+80 silly install resolved     _npmVersion: '2.15.5',
+80 silly install resolved     _nodeVersion: '4.4.5',
+80 silly install resolved     _npmUser: { name: 'zpao', email: 'paul@oshannessy.com' },
+80 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object] ],
+80 silly install resolved     dist:
+80 silly install resolved      { shasum: '2e77a838ba8bd3812c0a8b418fea7a7cc303d84b',
+80 silly install resolved        tarball: 'https://registry.npmjs.org/react-addons-css-transition-group/-/react-addons-css-transition-group-15.2.1.tgz' },
+80 silly install resolved     _npmOperationalInternal:
+80 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
+80 silly install resolved        tmp: 'tmp/react-addons-css-transition-group-15.2.1.tgz_1468017044112_0.14779217401519418' },
+80 silly install resolved     directories: {},
+80 silly install resolved     readme: 'ERROR: No README data found!' } ]
+81 info install react-addons-css-transition-group@15.2.1 into /Users/tnadka/Documents/final-project/project-untold
+82 info installOne react-addons-css-transition-group@15.2.1
+83 verbose installOne of react-addons-css-transition-group to /Users/tnadka/Documents/final-project/project-untold not in flight; installing
+84 verbose correctMkdir /Users/tnadka/.npm/_locks correctMkdir not in flight; initializing
+85 verbose lock using /Users/tnadka/.npm/_locks/react-addons-css-transit-4148a1833b578cde.lock for /Users/tnadka/Documents/final-project/project-untold/node_modules/react-addons-css-transition-group
+86 silly install write writing react-addons-css-transition-group 15.2.1 to /Users/tnadka/Documents/final-project/project-untold/node_modules/react-addons-css-transition-group
+87 verbose unbuild node_modules/react-addons-css-transition-group
+88 info preuninstall react-addons-css-transition-group@15.2.1
+89 info uninstall react-addons-css-transition-group@15.2.1
+90 verbose unbuild rmStuff react-addons-css-transition-group@15.2.1 from /Users/tnadka/Documents/final-project/project-untold/node_modules
+91 info postuninstall react-addons-css-transition-group@15.2.1
+92 silly gentlyRm /Users/tnadka/Documents/final-project/project-untold/node_modules/react-addons-css-transition-group is being purged from base /Users/tnadka/Documents/final-project/project-untold
+93 verbose gentlyRm don't care about contents; nuking /Users/tnadka/Documents/final-project/project-untold/node_modules/react-addons-css-transition-group
+94 silly vacuum-fs purging /Users/tnadka/Documents/final-project/project-untold/node_modules/react-addons-css-transition-group
+95 silly vacuum-fs quitting because other entries in /Users/tnadka/Documents/final-project/project-untold/node_modules
+96 verbose tar unpack /Users/tnadka/.npm/react-addons-css-transition-group/15.2.1/package.tgz
+97 verbose tar unpacking to /Users/tnadka/Documents/final-project/project-untold/node_modules/react-addons-css-transition-group
+98 silly gentlyRm /Users/tnadka/Documents/final-project/project-untold/node_modules/react-addons-css-transition-group is being purged
+99 verbose gentlyRm don't care about contents; nuking /Users/tnadka/Documents/final-project/project-untold/node_modules/react-addons-css-transition-group
+100 silly gunzTarPerm modes [ '755', '644' ]
+101 silly gunzTarPerm extractEntry package.json
+102 silly gunzTarPerm extractEntry README.md
+103 silly gunzTarPerm extractEntry LICENSE
+104 silly gunzTarPerm extractEntry index.js
+105 silly gunzTarPerm extractEntry PATENTS
+106 verbose write writing to /Users/tnadka/Documents/final-project/project-untold/node_modules/react-addons-css-transition-group/package.json
+107 info preinstall react-addons-css-transition-group@15.2.1
+108 verbose readDependencies loading dependencies from /Users/tnadka/Documents/final-project/project-untold/node_modules/react-addons-css-transition-group/package.json
+109 silly prepareForInstallMany adding react@^15.2.1 from react-addons-css-transition-group peerDependencies
+110 warn peerDependencies The peer dependency react@^15.2.1 included from react-addons-css-transition-group will no
+111 warn peerDependencies longer be automatically installed to fulfill the peerDependency
+112 warn peerDependencies in npm 3+. Your application will need to depend on it explicitly.
+113 verbose readDependencies loading dependencies from /Users/tnadka/Documents/final-project/project-untold/node_modules/react-addons-css-transition-group/package.json
+114 silly install resolved []
+115 verbose about to build /Users/tnadka/Documents/final-project/project-untold/node_modules/react-addons-css-transition-group
+116 info build /Users/tnadka/Documents/final-project/project-untold/node_modules/react-addons-css-transition-group
+117 info linkStuff react-addons-css-transition-group@15.2.1
+118 silly linkStuff react-addons-css-transition-group@15.2.1 has /Users/tnadka/Documents/final-project/project-untold/node_modules as its parent node_modules
+119 verbose linkBins react-addons-css-transition-group@15.2.1
+120 verbose linkMans react-addons-css-transition-group@15.2.1
+121 verbose rebuildBundles react-addons-css-transition-group@15.2.1
+122 info install react-addons-css-transition-group@15.2.1
+123 info postinstall react-addons-css-transition-group@15.2.1
+124 verbose readDependencies loading dependencies from /Users/tnadka/Documents/final-project/project-untold/package.json
+125 verbose targetResolver reading package data from /Users/tnadka/Documents/final-project/project-untold/node_modules/babel-core/package.json
+126 verbose targetResolver reading package data from /Users/tnadka/Documents/final-project/project-untold/node_modules/babel-loader/package.json
+127 verbose targetResolver reading package data from /Users/tnadka/Documents/final-project/project-untold/node_modules/babel-preset-es2015/package.json
+128 verbose targetResolver reading package data from /Users/tnadka/Documents/final-project/project-untold/node_modules/babel-preset-react/package.json
+129 verbose targetResolver reading package data from /Users/tnadka/Documents/final-project/project-untold/node_modules/body-parser/package.json
+130 verbose targetResolver reading package data from /Users/tnadka/Documents/final-project/project-untold/node_modules/connect-livereload/package.json
+131 verbose targetResolver reading package data from /Users/tnadka/Documents/final-project/project-untold/node_modules/dom-scroll-into-view/package.json
+132 verbose targetResolver reading package data from /Users/tnadka/Documents/final-project/project-untold/node_modules/easyimage/package.json
+133 verbose targetResolver reading package data from /Users/tnadka/Documents/final-project/project-untold/node_modules/express/package.json
+134 verbose targetResolver reading package data from /Users/tnadka/Documents/final-project/project-untold/node_modules/express-livereload/package.json
+135 verbose targetResolver reading package data from /Users/tnadka/Documents/final-project/project-untold/node_modules/forever/package.json
+136 verbose targetResolver reading package data from /Users/tnadka/Documents/final-project/project-untold/node_modules/geolib/package.json
+137 verbose targetResolver reading package data from /Users/tnadka/Documents/final-project/project-untold/node_modules/gulp/package.json
+138 verbose targetResolver reading package data from /Users/tnadka/Documents/final-project/project-untold/node_modules/gulp-autoprefixer/package.json
+139 verbose targetResolver reading package data from /Users/tnadka/Documents/final-project/project-untold/node_modules/gulp-load-plugins/package.json
+140 verbose targetResolver reading package data from /Users/tnadka/Documents/final-project/project-untold/node_modules/gulp-sass/package.json
+141 verbose targetResolver reading package data from /Users/tnadka/Documents/final-project/project-untold/node_modules/history/package.json
+142 verbose targetResolver reading package data from /Users/tnadka/Documents/final-project/project-untold/node_modules/http/package.json
+143 verbose targetResolver reading package data from /Users/tnadka/Documents/final-project/project-untold/node_modules/jquery/package.json
+144 verbose targetResolver reading package data from /Users/tnadka/Documents/final-project/project-untold/node_modules/mongoose/package.json
+145 verbose targetResolver reading package data from /Users/tnadka/Documents/final-project/project-untold/node_modules/path/package.json
+146 verbose targetResolver reading package data from /Users/tnadka/Documents/final-project/project-untold/node_modules/promise/package.json
+147 verbose targetResolver reading package data from /Users/tnadka/Documents/final-project/project-untold/node_modules/pug/package.json
+148 verbose targetResolver reading package data from /Users/tnadka/Documents/final-project/project-untold/node_modules/react/package.json
+149 verbose targetResolver reading package data from /Users/tnadka/Documents/final-project/project-untold/node_modules/react-addons-css-transition-group/package.json
+150 verbose targetResolver reading package data from /Users/tnadka/Documents/final-project/project-untold/node_modules/react-dom/package.json
+151 verbose targetResolver reading package data from /Users/tnadka/Documents/final-project/project-untold/node_modules/react-redux/package.json
+152 verbose targetResolver reading package data from /Users/tnadka/Documents/final-project/project-untold/node_modules/react-router/package.json
+153 verbose targetResolver reading package data from /Users/tnadka/Documents/final-project/project-untold/node_modules/redux/package.json
+154 verbose targetResolver reading package data from /Users/tnadka/Documents/final-project/project-untold/node_modules/underscore/package.json
+155 verbose targetResolver reading package data from /Users/tnadka/Documents/final-project/project-untold/node_modules/webpack/package.json
+156 verbose targetResolver reading package data from /Users/tnadka/Documents/final-project/project-untold/node_modules/.bin/forever/package.json
+157 verbose targetResolver reading package data from /Users/tnadka/Documents/final-project/project-untold/node_modules/.bin/gulp/package.json
+158 verbose targetResolver reading package data from /Users/tnadka/Documents/final-project/project-untold/node_modules/.bin/webpack/package.json
+159 verbose already installed skipping react@^15.2.1 /Users/tnadka/Documents/final-project/project-untold
+160 silly install resolved []
+161 verbose unlock done using /Users/tnadka/.npm/_locks/react-addons-css-transit-4148a1833b578cde.lock for /Users/tnadka/Documents/final-project/project-untold/node_modules/react-addons-css-transition-group
+162 verbose validateInstall loading /Users/tnadka/Documents/final-project/project-untold/package.json for validation
+163 verbose stack Error: The package react@15.2.0 does not satisfy its siblings' peerDependencies requirements!
+163 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:125:32
+163 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:268:7
+163 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:142:5
+163 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+163 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+163 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+163 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+163 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+163 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+163 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+164 verbose cwd /Users/tnadka/Documents/final-project/project-untold
+165 error Darwin 15.5.0
+166 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "--save-dev" "react-addons-css-transition-group"
+167 error node v4.4.5
+168 error npm  v2.15.5
+169 error code EPEERINVALID
+170 error peerinvalid The package react@15.2.0 does not satisfy its siblings' peerDependencies requirements!
+170 error peerinvalid Peer react-addons-css-transition-group@15.2.1 wants react@^15.2.1
+170 error peerinvalid Peer react-dom@15.2.0 wants react@^15.2.0
+170 error peerinvalid Peer react-redux@4.4.5 wants react@^0.14.0 || ^15.0.0-0
+170 error peerinvalid Peer react-router@2.5.2 wants react@^0.14.0 || ^15.0.0
+171 verbose exit [ 1, true ]
